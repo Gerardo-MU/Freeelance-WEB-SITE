@@ -1,7 +1,8 @@
 :root{
     --blanco: #ffffff;
     --obscuro: #212121;
-    --primario: rgb(255,193,7);
+    --primario: #FFC107;
+    --secundario: #0097A7;
     --gris: #757575;
 }
 html {
@@ -17,4 +18,16 @@ body {
 }
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto; /* es equivalente a => margin: 0 auto 0 auto; */
+    /* margin( [top] [right] [botton] [left])*/
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+    
 }
