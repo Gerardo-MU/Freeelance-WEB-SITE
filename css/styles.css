@@ -1,3 +1,9 @@
+:root{
+    --blanco: #ffffff;
+    --obscuro: #212121;
+    --primario: rgb(255,193,7);
+    --gris: #757575;
+}
 html {
     font-size: 62.5%;
 }
