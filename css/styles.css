@@ -21,13 +21,19 @@ body {
 }
 
 .contenedor{
-    width: 120rem;
+    width: 120rem; /*1200px*/
     margin: 0 auto; /* es equivalente a => margin: 0 auto 0 auto; */
     /* margin( [top] [right] [botton] [left])*/
 }
 .nav-bg{
     background-color: var(--secundario);
 }
-.navegacion-principal{
-    
+.navegacion-principal {
+    padding: 1rem;
 }
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
