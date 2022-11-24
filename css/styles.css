@@ -29,16 +29,25 @@ body {
     background-color: var(--secundario);
 }
 .navegacion-principal {
-    
-    padding: 1rem;
     display: flex; /*Habilita flexbox en este elemento*/
-    flex-direction: row; /*Ordena en rwenglon el contenido*/
+    flex-direction: row; /*Ordena en renglon el contenido*/
     justify-content: space-around; /*mueve el contenido del elemento hacia el centro*/
-
 }
 
 .navegacion-principal a{
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
 }
 
+.navegacion-principal a:hover{
+    /* ':hover' añade un evento en el enlace 'a' */
+    background-color: var(--primario);
+    color: var(--obscuro);
+}
+
+.navegacion-principal a:visited{
+    
+}
