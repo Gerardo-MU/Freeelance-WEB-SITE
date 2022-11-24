@@ -8,6 +8,7 @@
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 16px;
     font-family: 'Krub',sans-serif;
@@ -54,4 +55,10 @@ body {
     /* Se añade el evento ':hover' al enlace 'a' */
     background-color: var(--primario);
     color: var(--obscuro);
+}
+
+.contenido-hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
