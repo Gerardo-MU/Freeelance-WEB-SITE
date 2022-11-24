@@ -7,6 +7,11 @@
 }
 html {
     font-size: 62.5%;
+    box-sizing:border-box;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+    /*Colocar a todos los elementos el box-sizing*/
 }
 
 body {
@@ -61,4 +66,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
