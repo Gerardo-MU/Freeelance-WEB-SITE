@@ -21,7 +21,7 @@ body {
 }
 
 .contenedor{
-    width: 120rem; /*1200px*/
+    max-width: 120rem; /*si hay espacio de 1200px se asigna, si no toma el 100%*/
     margin: 0 auto; /* es equivalente a => margin: 0 auto 0 auto; */
     /* margin( [top] [right] [botton] [left])*/
 }
@@ -30,11 +30,19 @@ body {
 }
 .navegacion-principal {
     display: flex; /*Habilita flexbox en este elemento*/
-    flex-direction: row; /*Ordena en renglon el contenido*/
-    justify-content: space-around; /*mueve el contenido del elemento hacia el centro*/
+    flex-direction: column; /*Ordena en columna el contenido*/
+}
+
+@media (min-width: 480px) {
+    .navegacion-principal {
+        flex-direction: row; /*Ordena en renglon el contenido*/
+    }
 }
 
 .navegacion-principal a{
+    width: 100%;
+    /*display:block; Utiliza todo el espacio disponible*/
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
@@ -43,11 +51,7 @@ body {
 }
 
 .navegacion-principal a:hover{
-    /* ':hover' añade un evento en el enlace 'a' */
+    /* Se añade el evento ':hover' al enlace 'a' */
     background-color: var(--primario);
     color: var(--obscuro);
-}
-
-.navegacion-principal a:visited{
-    
 }
