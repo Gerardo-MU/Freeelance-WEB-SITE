@@ -100,34 +100,38 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas dignissimos optio et.</p>
             </section>
         </div>
-    </main>
     
-    <section>
-        <h2>Contactos</h2>
-        <form action="">
-            <!-- Todo lo que se encuentra dentro de esta etiqueta corresponde a un formulario -->
-            <fieldset>
-                <legend>Contactanos llenando todos los campos</legend>
-                <div>
-                    <label>Nombre</label> <!-- Indicacion -->
-                    <input type="text" placeholder="Escribe tu nombre"> <!--Ingresar datos -->
-                </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="tel" placeholder="Tu telefono">
-                </div>
-                <div>
-                    <label> Correo</label>
-                    <input type="email" placeholder="e-mail">
-                </div>
-                <div>
-                    <label> Mensajes</label>
-                    <textarea name="" id="" cols="100" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
+        <section>
+            <h2>Contactos</h2>
+            <form class="formulario">
+                <!-- Todo lo que se encuentra dentro de esta etiqueta corresponde a un formulario -->
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label> <!-- Indicacion -->
+                            <input class="input-text" type="text" placeholder="Escribe tu nombre"> <!--Ingresar datos -->
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu telefono">
+                        </div>
+                        <div class="campo">
+                            <label> Correo</label>
+                            <input class="input-text" type="email" placeholder="e-mail">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 
     <footer>
         <p>Todos los derechos reservados. Gerardo Martinez Urbina</p>
