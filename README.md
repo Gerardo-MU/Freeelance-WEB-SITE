@@ -1,4 +1,9 @@
-## Sitio Web Freelancer
+# Proyecto: Sitio Web Freelancer
+
+----
+
+## Objetivo
+Crear una página web con los principios básicos de Front-End
 
 Este sitio web es una presentación de mis servicios como programador freeelancer los cuales consisten en:
 
